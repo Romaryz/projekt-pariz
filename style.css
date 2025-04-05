@@ -1,5 +1,91 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
+body {
+background-color: #cde4f9;
+font-style:oblique;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 20px;
+line-height: 1.4;
+
+}
+
+h1,
+h2,
+h3 {
+    line-height:1.2;
+}
 h1{
-    color:red
+   font-size: 48px;
+   text-align: center; 
+}
+h2{
+    font-size:32px;
+}
+h3{
+    font-size:24px;
+    color: #dc6aa1;
+    padding-top: 48px;
+}
+.Autor {
+    text-align: center;
+    color: #dc6aa1;
+}
+.Perex {
+    font-size: 24px;
+    color:  #808080;
+}
+header,
+section {
+    background-color:  #ffffff;
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    
+}
+.Pariz {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+header {
+    text-align: center;
+}
+
+.Eiffelovka,
+.Oblouk,
+.Louvre,
+.Montmartre {
+        width: 300px;
+        height: 225px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+}
+
+.Zahrady {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+
+.Eiffelovka {
+    float:right;
+}
+
+.Oblouk {
+    float:left;
+    margin: 20px 20px;
+}
+
+.Louvre {
+    float:right;
+}
+.Montmartre {
+    float:left;
 }
